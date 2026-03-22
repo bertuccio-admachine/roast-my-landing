@@ -1,0 +1,34 @@
+{
+  "name": "roast-my-landing",
+  "version": "1.0.0",
+  "description": "Brutally honest landing page conversion auditor. Get a roast score, find conversion killers, and fix them.",
+  "type": "module",
+  "bin": {
+    "roast": "./src/index.ts"
+  },
+  "scripts": {
+    "start": "bun src/index.ts",
+    "roast": "bun src/index.ts"
+  },
+  "keywords": [
+    "landing-page",
+    "conversion",
+    "audit",
+    "marketing",
+    "cro",
+    "seo",
+    "roast",
+    "cli"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "cheerio": "^1.2.0",
+    "commander": "^14.0.3",
+    "ora": "^9.3.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.9.3"
+  }
+}
